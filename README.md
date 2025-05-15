@@ -59,37 +59,37 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 ### Workflow Summary
 
 **Data Acquisition**
-└─ UAV Imagery (RGB, NIR, Red Edge, Thermal)
-└─ Digital Terrain Model (DTM)
+- UAV Imagery (RGB, NIR, Red Edge, Thermal)
+- Digital Terrain Model (DTM)
 
 **Preprocessing**
-└─ Image transformation & Clipping
+- Image transformation & Clipping
 
 **Index Calculation**
-└─ SAVI (Soil-Adjusted Vegetation Index)
-└─ BI (Brightness Index)
-└─ RI (Redness Index)
-└─ TMP (Land Surface Temperature from Thermal)
+- SAVI (Soil-Adjusted Vegetation Index)
+- BI (Brightness Index)
+- RI (Redness Index)
+- TMP (Land Surface Temperature from Thermal)
 
 **Terrain Analysis**
 └─ Derive Slope, Flow Direction, Flow Accumulation
 └─ Watershed Boundaries
 
 **Data Normalization**
-└─ Normalize Index and Terrain Layers \[0–1]
-└─ Ensure interpretability consistency across layers
+- Normalize Index and Terrain Layers \[0–1]
+- Ensure interpretability consistency across layers
 
 **Unsupervised Classification (ISODATA)**
-└─ Classify stacked raster to segment soil zones
+- Classify stacked raster to segment soil zones
 
 **Zonal Statistics**
 └─ Compute stats per zone (mean, std, range) for each index
 └─ Associate with field boundary vector zones
 
 **Interpretation & Mapping**
-└─ Interpret classified zones using index patterns
-└─ Overlay with terrain derivatives for validation
-└─ Generate styled final map
+- Interpret classified zones using index patterns
+- Overlay with terrain derivatives for validation
+- Generate styled final map
 
 ---
 
