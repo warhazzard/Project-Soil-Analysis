@@ -1,5 +1,5 @@
 # 🌱 Drone-Based Soil Analysis Using Multispectral, Thermal, and Terrain Data 
-### *Precision Agriculture with UAV, RGB, NIR, Thermal, and Topographic Data*
+### *Precision Agriculture with UAV(RGB, NIR, Thermal, and Topographic Data)*
 
 ---
 
