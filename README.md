@@ -96,7 +96,7 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 ### *Step-A:*
 
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/a.jpg?raw=true">
+<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/a.svg?raw=true">
 </p>
 
 ### *Step-B:*
