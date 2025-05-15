@@ -72,19 +72,19 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 - TMP (Land Surface Temperature from Thermal)
 
 4. **Terrain Analysis**
-└─ Derive Slope, Flow Direction, Flow Accumulation
-└─ Watershed Boundaries
+- Derive Slope, Flow Direction, Flow Accumulation
+- Watershed Boundaries
 
 5. **Data Normalization**
-- Normalize Index and Terrain Layers \[0–1]
+- Normalize Index Layers \[0–1]
 - Ensure interpretability consistency across layers
 
 6. **Unsupervised Classification (ISODATA)**
 - Classify stacked raster to segment soil zones
 
 7. **Zonal Statistics**
-└─ Compute stats per zone (mean, std, range) for each index
-└─ Associate with field boundary vector zones
+- Compute stats per zone (mean, std, range) for each index
+- Associate with field boundary vector zones
 
 8. **Interpretation & Mapping**
 - Interpret classified zones using index patterns
@@ -96,34 +96,34 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 ### *Step-A:*
 
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/a.jpg?raw=true">
+<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/a.svg?raw=true">
 </p>
 
 ### *Step-B:*
 
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b1.jpg?raw=true">
+<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b1.svg?raw=true">
 </p>
 
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b2.jpg?raw=true">
+<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b2.svg?raw=true">
 </p>
 
 ### *Step-C & E:*
 
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/c_and_e.jpg?raw=true">
+<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/c_and_e.svg?raw=true">
 </p>
 
 ### *Step-D:*
 
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/d.jpg?raw=true">
+<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/d.svg?raw=true">
 </p>
 
 ### *Step-F:*
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/f.jpg?raw=true">
+<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/f.svg?raw=true">
 </p>
 
 ### *Step-G:*
