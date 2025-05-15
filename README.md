@@ -52,10 +52,6 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 ---
 ## Steps
 
-Absolutely! Here’s your exact content formatted neatly for GitHub README markdown, preserving your arrows and indentation for clarity:
-
----
-
 ### Workflow Summary
 
 1. **Data Acquisition**
@@ -94,13 +90,15 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 ---
 
 ### *Step-1:*
+- Collected high-resolution UAV imagery across multiple spectral bands: RGB, NIR, Red Edge, thermal, and point cloud from USGS (source mentioned above)
 
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/a.svg?raw=true">
 </p>
 
 ### *Step-2:*
-
+- Performed image transformations (raw thermal to temperature (celsius)) and clipping to align and prepare the datasets for analysis. 
+- Prepared DTM from point cloud by classifying the ground points than rasterizing the result obtained
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b1.svg?raw=true">
 </p>
@@ -110,23 +108,34 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 </p>
 
 ### *Step-3 & 5:*
+- Computed various indices to assess soil and vegetation characteristics:
+  - SAVI (Soil-Adjusted Vegetation Index) to evaluate vegetation cover.
+  - BI (Brightness Index) to determine soil brightness levels.
+  - RI (Redness Index) to identify iron oxide concentrations.
+  - TMP (Land Surface Temperature) derived from thermal imagery to assess surface heat.
+- Normalized all raster layers to a [0–1] scale to ensure consistency and comparability across different indices and terrain attributes.
 
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/c_and_e.svg?raw=true">
 </p>
 
 ### *Step-4:*
+- Derived terrain attributes from the DTM:
+  - Calculated slope, flow direction, and flow accumulation to understand water movement.
+  - Generated watershed boundaries to delineate drainage areas.
 
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/d.svg?raw=true">
 </p>
 
 ### *Step-6:*
+- Applied the ISODATA algorithm to the normalized raster data to segment the area into distinct soil zones based on spectral features.
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/f.svg?raw=true">
 </p>
 
 ### *Step-7:*
+- Computed statistical measures associated with specific field boundary vector zones for detailed analysis.
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/zonalst_BI.jpg?raw=true">
 </p>
