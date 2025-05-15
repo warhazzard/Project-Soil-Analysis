@@ -52,6 +52,7 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 ---
 ## Steps
 
+```mermaid
 graph TD
     A[Data Acquisition (UAV Imagery & DTM)] --> B[Preprocessing]
     B --> C[Compute Indices: SAVI, BI, RI, LST]
