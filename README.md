@@ -52,7 +52,19 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 ---
 ## Steps
 
-<pre> ```markdown <details> <summary>📊 Click to expand workflow diagram (Mermaid)</summary> ```mermaid graph TD A[Data Acquisition: UAV Imagery + DTM] --> B[Preprocessing] B --> C[Compute Indices: SAVI, BI, RI, LST] B --> D[DTM Derivatives: Slope, Flow, Hillshade, Watershed] C --> E[Normalize Raster Layers] D --> E E --> F[Multiband Raster Stack] F --> G[Unsupervised Classification: ISODATA] G --> H[Zonal Statistics] H --> I[Interpret with Terrain Context] I --> J[Map Styling and Report Generation] ``` </details> ``` </pre>
+<pre> 
+```markdown <details> <summary>📊 Click to expand workflow diagram (Mermaid)</summary> 
+    ```mermaid graph TD 
+    A[Data Acquisition: UAV Imagery + DTM] --> 
+    B[Preprocessing] B --> C[Compute Indices: SAVI, BI, RI, LST] 
+    B --> D[DTM Derivatives: Slope, Flow, Hillshade, Watershed] 
+    C --> E[Normalize Raster Layers] 
+    D --> E 
+    E --> F[Multiband Raster Stack] 
+    F --> G[Unsupervised Classification: ISODATA] 
+    G --> H[Zonal Statistics] 
+    ``` </details> ``` 
+</pre>
     
 ### *Step-A:*
 
