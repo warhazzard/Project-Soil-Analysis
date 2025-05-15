@@ -58,35 +58,35 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 
 ### Workflow Summary
 
-**Data Acquisition**
+1. **Data Acquisition**
 - UAV Imagery (RGB, NIR, Red Edge, Thermal)
 - Digital Terrain Model (DTM)
 
-**Preprocessing**
+2. **Preprocessing**
 - Image transformation & Clipping
 
-**Index Calculation**
+3. **Index Calculation**
 - SAVI (Soil-Adjusted Vegetation Index)
 - BI (Brightness Index)
 - RI (Redness Index)
 - TMP (Land Surface Temperature from Thermal)
 
-**Terrain Analysis**
+4. **Terrain Analysis**
 └─ Derive Slope, Flow Direction, Flow Accumulation
 └─ Watershed Boundaries
 
-**Data Normalization**
+5. **Data Normalization**
 - Normalize Index and Terrain Layers \[0–1]
 - Ensure interpretability consistency across layers
 
-**Unsupervised Classification (ISODATA)**
+6. **Unsupervised Classification (ISODATA)**
 - Classify stacked raster to segment soil zones
 
-**Zonal Statistics**
+7. **Zonal Statistics**
 └─ Compute stats per zone (mean, std, range) for each index
 └─ Associate with field boundary vector zones
 
-**Interpretation & Mapping**
+8. **Interpretation & Mapping**
 - Interpret classified zones using index patterns
 - Overlay with terrain derivatives for validation
 - Generate styled final map
@@ -140,7 +140,7 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/zonalst_TMP.jpg?raw=true">
 </p>
 
-#### Final map:
+### Final map:
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/final_map.jpg?raw=true">
 </p>
