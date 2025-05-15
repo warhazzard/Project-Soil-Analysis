@@ -143,15 +143,20 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 
 ### *Step-7:*
 - Computed statistical measures associated with specific field boundary vector zones for detailed analysis.
+
+*Zonal stats: Brightness Index*
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/zonalst_BI.jpg?raw=true">
 </p>
+*Zonal stats: Redness Index*
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/zonalst_RI.jpg?raw=true">
 </p>
+*Zonal stats: SAVI*
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/zonalst_SAVI.jpg?raw=true">
 </p>
+*Zonal stats: TMP*
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/zonalst_TMP.jpg?raw=true">
 </p>
