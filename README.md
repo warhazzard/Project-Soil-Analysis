@@ -52,19 +52,39 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 ---
 ## Steps
 
-<pre> 
-```markdown <details> <summary>📊 Click to expand workflow diagram (Mermaid)</summary> 
-    ```mermaid graph TD 
-    A[Data Acquisition: UAV Imagery + DTM] --> 
-    B[Preprocessing] B --> C[Compute Indices: SAVI, BI, RI, LST] 
-    B --> D[DTM Derivatives: Slope, Flow, Hillshade, Watershed] 
-    C --> E[Normalize Raster Layers] 
-    D --> E 
-    E --> F[Multiband Raster Stack] 
-    F --> G[Unsupervised Classification: ISODATA] 
-    G --> H[Zonal Statistics] 
-    ``` </details> ``` 
-</pre>
+1. Data Acquisition
+   └─ UAV Imagery (RGB, NIR, Red Edge, Thermal)
+   └─ Digital Terrain Model (DTM)
+
+2. Preprocessing
+   └─ Image transformation & Clipping
+
+3. Index Calculation
+   └─ SAVI (Soil-Adjusted Vegetation Index)
+   └─ BI (Brightness Index)
+   └─ RI (Redness Index)
+   └─ TMP (Land Surface Temperature from Thermal)
+
+4. Terrain Analysis
+   └─ Derive Slope, Flow Direction, Flow Accumulation
+   └─ Watershed Boundaries
+
+5. Data Normalization
+   └─ Normalize Index and Terrain Layers [0–1]
+   └─ Ensure interpretability consistency across layers
+
+6. Unsupervised Classification (ISODATA)
+   └─ Classify stacked raster to segment soil zones
+
+7. Zonal Statistics
+   └─ Compute stats per zone (mean, std, range) for each index
+   └─ Associate with field boundary vector zones
+
+8. Interpretation & Mapping
+   └─ Interpret classified zones using index patterns
+   └─ Overlay with terrain derivatives for validation
+   └─ Generate styled final map
+
     
 ### *Step-A:*
 
