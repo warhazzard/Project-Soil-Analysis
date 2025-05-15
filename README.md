@@ -55,37 +55,37 @@ In this project I have attempted to analyze **bare-soil fields** using **high-re
 ### Workflow Summary
 
 1. **Data Acquisition**
-  &nbsp;- UAV Imagery (RGB, NIR, Red Edge, Thermal)
-  &nbsp;- Digital Terrain Model (DTM)
+  &#09;- UAV Imagery (RGB, NIR, Red Edge, Thermal)
+  &#09;- Digital Terrain Model (DTM)
 
 2. **Preprocessing**
-  &nbsp;- Image transformation & Clipping
+  &#09;- Image transformation & Clipping
 
 3. **Index Calculation**
-  &nbsp;- SAVI (Soil-Adjusted Vegetation Index)
-  &nbsp;- BI (Brightness Index)
-  &nbsp;- RI (Redness Index)
-  &nbsp;- TMP (Land Surface Temperature from Thermal)
+  &#09;- SAVI (Soil-Adjusted Vegetation Index)
+  &#09;- BI (Brightness Index)
+  &#09;- RI (Redness Index)
+  &#09;- TMP (Land Surface Temperature from Thermal)
 
 4. **Terrain Analysis**
-  &nbsp;- Derive Slope, Flow Direction, Flow Accumulation
-  &nbsp;- Watershed Boundaries
+  &#09;- Derive Slope, Flow Direction, Flow Accumulation
+  &#09;- Watershed Boundaries
 
 5. **Data Normalization**
-  &nbsp;- Normalize Index Layers \[0–1]
-  &nbsp;- Ensure interpretability consistency across layers
+  &#09;- Normalize Index Layers \[0–1]
+  &#09;- Ensure interpretability consistency across layers
 
 6. **Unsupervised Classification (ISODATA)**
-  &nbsp;- Classify stacked raster to segment soil zones
+  &#09;- Classify stacked raster to segment soil zones
 
 7. **Zonal Statistics**
-  - Compute stats per zone (mean, std, range) for each index
-  - Associate with field boundary vector zones  
+  &#09;- Compute stats per zone (mean, std, range) for each index
+  &#09;- Associate with field boundary vector zones  
 
 8. **Interpretation & Mapping**
-  &nbsp;- Interpret classified zones using index patterns
-  &nbsp;- Overlay with terrain derivatives for validation
-  &nbsp;- Generate styled final map
+  &#09;- Interpret classified zones using index patterns
+  &#09;- Overlay with terrain derivatives for validation
+  &#09;- Generate styled final map
 
 ---
 
