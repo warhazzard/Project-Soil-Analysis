@@ -55,37 +55,37 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 ### Workflow Summary
 
 1. **Data Acquisition**
-- UAV Imagery (RGB, NIR, Red Edge, Thermal)
-- Digital Terrain Model (DTM)
+  - UAV Imagery (RGB, NIR, Red Edge, Thermal)
+  - Digital Terrain Model (DTM)
 
 2. **Preprocessing**
-- Image transformation & Clipping
+  - Image transformation & Clipping
 
 3. **Index Calculation**
-- SAVI (Soil-Adjusted Vegetation Index)
-- BI (Brightness Index)
-- RI (Redness Index)
-- TMP (Land Surface Temperature from Thermal)
+  - SAVI (Soil-Adjusted Vegetation Index)
+  - BI (Brightness Index)
+  - RI (Redness Index)
+  - TMP (Land Surface Temperature from Thermal)
 
 4. **Terrain Analysis**
 - Derive Slope, Flow Direction, Flow Accumulation
 - Watershed Boundaries
 
 5. **Data Normalization**
-- Normalize Index Layers \[0–1]
-- Ensure interpretability consistency across layers
+  - Normalize Index Layers \[0–1]
+  - Ensure interpretability consistency across layers
 
 6. **Unsupervised Classification (ISODATA)**
-- Classify stacked raster to segment soil zones
+  - Classify stacked raster to segment soil zones
 
 7. **Zonal Statistics**
-- Compute stats per zone (mean, std, range) for each index
-- Associate with field boundary vector zones
+  - Compute stats per zone (mean, std, range) for each index
+  - Associate with field boundary vector zones  
 
 8. **Interpretation & Mapping**
-- Interpret classified zones using index patterns
-- Overlay with terrain derivatives for validation
-- Generate styled final map
+  - Interpret classified zones using index patterns
+  - Overlay with terrain derivatives for validation
+  - Generate styled final map
 
 ---
 
@@ -109,10 +109,17 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 
 ### *Step-3 & 5:*
 - Computed various indices to assess soil and vegetation characteristics:
-  - SAVI (Soil-Adjusted Vegetation Index) to evaluate vegetation cover.
+  - SAVI (Soil-Adjusted Vegetation Index) 
+    - Higher SAVI: Slight organic residue / darker topsoil
+    - Lower SAVI: Exposed, dry, sandy zones
   - BI (Brightness Index) to determine soil brightness levels.
+    - High BI: Lighter soils (chalky, sandy)
+    - Low BI: Darker soils (loamy, clay-rich)
   - RI (Redness Index) to identify iron oxide concentrations.
+    - Higher RI indicates redder soils, often high in iron oxides.
   - TMP (Land Surface Temperature) derived from thermal imagery to assess surface heat.
+    - Lower TMP: cooler zones = more moisture
+    - Higher TMP: hotter = dry or compacted soil
 - Normalized all raster layers to a [0–1] scale to ensure consistency and comparability across different indices and terrain attributes.
 
 <p align="center">
