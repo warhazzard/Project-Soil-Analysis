@@ -54,15 +54,15 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 
 ```mermaid
 graph TD
-    A[Data Acquisition (UAV Imagery & DTM)] --> B[Preprocessing]
+    A[Data Acquisition: UAV Imagery + DTM] --> B[Preprocessing]
     B --> C[Compute Indices: SAVI, BI, RI, LST]
     B --> D[DTM Derivatives: Slope, Flow, Hillshade, Watershed]
     C --> E[Normalize Raster Layers]
     D --> E
     E --> F[Multiband Raster Stack]
-    F --> G[Unsupervised Classification (ISODATA)]
+    F --> G[Unsupervised Classification: ISODATA]
     G --> H[Zonal Statistics]
-    H --> I[Contextual Interpretation with Terrain Data]
+    H --> I[Interpret with Terrain Context]
     I --> J[Map Styling + Report Generation]
     
 ### *Step-A:*
