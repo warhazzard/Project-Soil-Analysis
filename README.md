@@ -55,37 +55,37 @@ In this project I have attempted to analyze **bare-soil fields** using **high-re
 ### Workflow Summary
 
 1. **Data Acquisition**
-  - UAV Imagery (RGB, NIR, Red Edge, Thermal)
-  - Digital Terrain Model (DTM)
+  &nbsp;- UAV Imagery (RGB, NIR, Red Edge, Thermal)
+  &nbsp;- Digital Terrain Model (DTM)
 
 2. **Preprocessing**
-  - Image transformation & Clipping
+  &nbsp;- Image transformation & Clipping
 
 3. **Index Calculation**
-  - SAVI (Soil-Adjusted Vegetation Index)
-  - BI (Brightness Index)
-  - RI (Redness Index)
-  - TMP (Land Surface Temperature from Thermal)
+  &nbsp;- SAVI (Soil-Adjusted Vegetation Index)
+  &nbsp;- BI (Brightness Index)
+  &nbsp;- RI (Redness Index)
+  &nbsp;- TMP (Land Surface Temperature from Thermal)
 
 4. **Terrain Analysis**
-- Derive Slope, Flow Direction, Flow Accumulation
-- Watershed Boundaries
+  &nbsp;- Derive Slope, Flow Direction, Flow Accumulation
+  &nbsp;- Watershed Boundaries
 
 5. **Data Normalization**
-  - Normalize Index Layers \[0–1]
-  - Ensure interpretability consistency across layers
+  &nbsp;- Normalize Index Layers \[0–1]
+  &nbsp;- Ensure interpretability consistency across layers
 
 6. **Unsupervised Classification (ISODATA)**
-  - Classify stacked raster to segment soil zones
+  &nbsp;- Classify stacked raster to segment soil zones
 
 7. **Zonal Statistics**
   - Compute stats per zone (mean, std, range) for each index
   - Associate with field boundary vector zones  
 
 8. **Interpretation & Mapping**
-  - Interpret classified zones using index patterns
-  - Overlay with terrain derivatives for validation
-  - Generate styled final map
+  &nbsp;- Interpret classified zones using index patterns
+  &nbsp;- Overlay with terrain derivatives for validation
+  &nbsp;- Generate styled final map
 
 ---
 
