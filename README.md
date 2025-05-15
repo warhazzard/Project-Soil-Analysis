@@ -76,7 +76,7 @@ In this project I have attempted to analyze **bare-soil fields** using **high-re
   &#09;- Ensure interpretability consistency across layers
 
 6. **Unsupervised Classification (ISODATA)**
-  &#09;- Classify stacked raster to segment soil zones
+  &#09;- Classify normalized raster to segment soil zones
 
 7. **Zonal Statistics**
   &#09;- Compute stats per zone (mean, std, range) for each index
