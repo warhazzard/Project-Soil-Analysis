@@ -52,40 +52,47 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 ---
 ## Steps
 
-1. Data Acquisition
-   └─ UAV Imagery (RGB, NIR, Red Edge, Thermal)
-   └─ Digital Terrain Model (DTM)
+Absolutely! Here’s your exact content formatted neatly for GitHub README markdown, preserving your arrows and indentation for clarity:
 
-2. Preprocessing
-   └─ Image transformation & Clipping
+---
 
-3. Index Calculation
-   └─ SAVI (Soil-Adjusted Vegetation Index)
-   └─ BI (Brightness Index)
-   └─ RI (Redness Index)
-   └─ TMP (Land Surface Temperature from Thermal)
+### Workflow Summary
 
-4. Terrain Analysis
-   └─ Derive Slope, Flow Direction, Flow Accumulation
-   └─ Watershed Boundaries
+**Data Acquisition**
+└─ UAV Imagery (RGB, NIR, Red Edge, Thermal)
+└─ Digital Terrain Model (DTM)
 
-5. Data Normalization
-   └─ Normalize Index and Terrain Layers [0–1]
-   └─ Ensure interpretability consistency across layers
+**Preprocessing**
+└─ Image transformation & Clipping
 
-6. Unsupervised Classification (ISODATA)
-   └─ Classify stacked raster to segment soil zones
+**Index Calculation**
+└─ SAVI (Soil-Adjusted Vegetation Index)
+└─ BI (Brightness Index)
+└─ RI (Redness Index)
+└─ TMP (Land Surface Temperature from Thermal)
 
-7. Zonal Statistics
-   └─ Compute stats per zone (mean, std, range) for each index
-   └─ Associate with field boundary vector zones
+**Terrain Analysis**
+└─ Derive Slope, Flow Direction, Flow Accumulation
+└─ Watershed Boundaries
 
-8. Interpretation & Mapping
-   └─ Interpret classified zones using index patterns
-   └─ Overlay with terrain derivatives for validation
-   └─ Generate styled final map
+**Data Normalization**
+└─ Normalize Index and Terrain Layers \[0–1]
+└─ Ensure interpretability consistency across layers
 
-    
+**Unsupervised Classification (ISODATA)**
+└─ Classify stacked raster to segment soil zones
+
+**Zonal Statistics**
+└─ Compute stats per zone (mean, std, range) for each index
+└─ Associate with field boundary vector zones
+
+**Interpretation & Mapping**
+└─ Interpret classified zones using index patterns
+└─ Overlay with terrain derivatives for validation
+└─ Generate styled final map
+
+---
+
 ### *Step-A:*
 
 <p align="center">
