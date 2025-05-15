@@ -184,15 +184,15 @@ This project demonstrates how to analyze **bare-soil fields** using **high-resol
 ---
 
 ## 🌾 Applications in Precision Agriculture
-Fertilization Planning: Target zones rich in organics (high SAVI)
+Fertilization Planning: Helps identify zones rich and poor in organics
 
-Irrigation Efficiency: Match cool zones to optimal watering areas
+Irrigation Efficiency: To devise optimal watering plan
 
 Crop Selection: Adapt species to transitional vs. highly fertile zones
 
 Runoff Mitigation: Avoid seeding near erosion-prone edges
 
-Field Zoning: Align natural watersheds with agricultural management units
+Field Zoning: Align natural watersheds with agricultural management units for enhanced productivity
 
 ---
 
