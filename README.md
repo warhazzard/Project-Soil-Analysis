@@ -5,7 +5,7 @@
 
 ## 📌 Overview
 
-This project demonstrates how to analyze **bare-soil fields** using **high-resolution UAV imagery** (RGB, NIR, Thermal) and **terrain context** (DTM-derived slope, watershed, and flow direction). The goal is to produce actionable insights for **precision agriculture**, particularly for fields without standing crops.
+In this project I have attempted to analyze **bare-soil fields** using **high-resolution UAV imagery** (RGB, NIR, Thermal) and **terrain context** (DTM-derived slope, watershed, and flow direction). The goal is to produce actionable insights for **precision agriculture**, particularly for fields without standing crops.
 
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/front-title.jpg?raw=true">
 
