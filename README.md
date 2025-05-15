@@ -93,13 +93,13 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 
 ---
 
-### *Step-A:*
+### *Step-1:*
 
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/a.svg?raw=true">
 </p>
 
-### *Step-B:*
+### *Step-2:*
 
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b1.svg?raw=true">
@@ -109,24 +109,24 @@ Absolutely! Here’s your exact content formatted neatly for GitHub README markd
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b2.svg?raw=true">
 </p>
 
-### *Step-C & E:*
+### *Step-3 & 5:*
 
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/c_and_e.svg?raw=true">
 </p>
 
-### *Step-D:*
+### *Step-4:*
 
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/d.svg?raw=true">
 </p>
 
-### *Step-F:*
+### *Step-6:*
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/f.svg?raw=true">
 </p>
 
-### *Step-G:*
+### *Step-7:*
 <p align="center">
 <img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/zonalst_BI.jpg?raw=true">
 </p>
