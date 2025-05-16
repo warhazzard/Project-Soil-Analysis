@@ -186,7 +186,6 @@ In this project I have attempted to analyze **bare-soil fields** using **high-re
 | Factor         | Best for Soil Health                | Not Ideal for Soil Health           |
 |----------------|------------------------------------|-------------------------------------|
 | Watershed      | Basin (collects water, retains moisture) | Outflow (loses water, prone to dryness) |
-| Slope          | Gentle (prevents runoff, retains nutrients) | Steep (increases erosion, poor retention) |
 | Flow Direction | Inward/Convergent (supports accumulation) | Outward/Divergent (promotes drainage)    |
 
 ---
