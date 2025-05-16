@@ -100,7 +100,7 @@ In this project I have attempted to analyze **bare-soil fields** using **high-re
 - Performed image transformations (raw thermal to temperature (celsius)) and clipping to align and prepare the datasets for analysis. 
 - Prepared DTM from point cloud by classifying the ground points than rasterizing the result obtained
 <p align="center">
-<img src="https://github.com/warhazzard/Project-Soil-Analysis/blob/main/Output/b1.svg?raw=true">
+<img src="https://github.com/warhazzard/project-Soil-Analysis/blob/main/Output/field_boundaries.jpg?raw=true">
 </p>
 
 <p align="center">
